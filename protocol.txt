@@ -1,0 +1,63 @@
+Definitions
+----
+Complex file: 
+	A complex file is such that it is compiled or executed at some point in the execution of the program (e.g. java files, ant build scripts, jelly files, etc.).
+
+Simple file: 
+	A simple file is such that is only informative or generated. So that changes to it will not affect the execution of the program (e.g. text files, readme files, changelog files, etc.)
+
+
+Protocol
+----
+When reviewing a conflict instance: (see * below for more detail)
+
+1. If the number of complex files is zero:
+	- Check comments for complexity* and if there, label HARD
+	- Else label EASY
+   Else If the number of complex files is higher than the 3rd Quartile (8 files):
+	- Check comments for simplicity* and if there, label EASY
+	- Else label HARD
+3. If comments contain branching* AND complexity*:
+	- Label HARD
+4. If the ratio* is higher than zero but at most 1:
+	- Check comments for simplicity* and if there, label EASY
+	- Else label HARD
+   Else If ratio is higher than 1:
+	- Check comments for complexity* and if there, label HARD
+	- Else label EASY
+   Else
+   	- Label EASY
+   	
+		
+Complexity
+----
+When checking a comment for complexity it is important to check whether the comments refer to subjects that are not simple to find and fix while programming. Such as (but not limited to):
+	- Memory leaks
+	- Updating to a new technology or version (e.g. from Ant to Maven, Maven2 to Maven3)
+	- JDK Issues
+	- Callbacks
+Additionally, lack of understanding or stating a problem also denotes complexity:
+	- "This is not fixed"
+	- "Cannot undestand why this is happening"
+	- "The problem is still present"
+	- "This should be working but it's not"
+	- "...gave up..."
+	- and more...	
+
+Simplicity
+----
+When checking for simplicity the comments should refer to changes that are very simple or not even programming related, such as (but not limited to):
+	- Image location
+	- Typos
+	- and more...
+
+Branching
+----
+Checking a comment for branching means to verify if there was a merging or a branching related to the commit. Such as:
+	- "merged branch..."
+	- "pulled brancg..."
+	- "integrated branch"
+	- "rolled back branch"
+	- and more...
+
+
