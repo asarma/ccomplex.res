@@ -1,4 +1,26 @@
-ccomplex
-========
+# ccomplex
+
 
 Study for predicting commit conflict complexity using Machine-Learning
+
+## files
+
+* results-all.arff: Weka results for all the datasets, with all the ML algorithms. 
+* results-ann.arff: Weka results for different configurations of the Artificial Neural Network
+* experiment-10fold-10rep.exp: Weka experiment configuration for all datasets and all ML algorithms. It shows the different configurations for Naïve Bayes, Artificial Neural Network and J48
+
+## folders
+
+* jenkins: Contains the datasets for Jenkins
+* voldemort: Contains the datasets for Voldemort
+
+## Datasets
+
+The datasets have been named like this:
+
+<project> - <type> - <set>
+
+* <project> : can be either "jenk" or "vold". Self-explanatory
+* <type> : refers to the type of conflict considered, it can be "commit" (for merge conflict), "test" (for test failures) or "build" (for build failures)
+* <set> : it determines if the dataset contains all features ("all") or only the ones chosen by feature selection ("filtered")
+
