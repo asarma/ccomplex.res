@@ -1,0 +1,47 @@
+@relation vold-build-filt
+
+@attribute file# numeric
+@attribute complex# numeric
+@attribute author_jay.kreps@gmail.com {n,y}
+@attribute author_csoman@linkedin.com {y,n}
+@attribute complex_src/java/voldemort/server/storage/storageservice.java {n,y}
+@attribute complex_src/java/voldemort/client/abstractstoreclientfactory.java {n,y}
+@attribute complex_src/java/voldemort/cluster/node.java {n,y}
+@attribute complex_test/unit/voldemort/store/rebalancing/rebalancingstoretest.java {n,y}
+@attribute complex_bin/swap-store.sh {n,y}
+@attribute complex_contrib/ec2-testing/test/voldemort/utils/ec2rebalancingtest.java {n,y}
+@attribute complex_src/java/voldemort/server/socket/adminservicerequesthandler.java {n,y}
+@attribute complex_src/java/voldemort/store/bdb/bdbstorageengine.java {n,y}
+@attribute word_store {n,y}
+@attribute word_branch {y,n}
+@attribute word_mongodb {n,y}
+@attribute word_release-070 {n,y}
+@attribute word_remot {n,y}
+@attribute word_contrib {n,y}
+@attribute word_trunk {n,y}
+@attribute word_avail {n,y}
+@attribute word_us {n,y}
+@attribute word_rebalanc {n,y}
+@attribute word_name {n,y}
+@attribute word_cleanup {n,y}
+@attribute word_github.com {n,y}
+@attribute word_readonli {n,y}
+@attribute label {HARD,EASY}
+
+@data
+0,0,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+0,0,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,y,n,n,n,y,n,n,n,y,HARD
+6,5,n,n,n,y,n,n,n,n,n,n,n,y,n,y,y,n,y,n,n,n,n,n,n,n,HARD
+10,10,n,n,n,n,n,n,n,y,n,n,n,y,n,y,y,n,y,n,n,n,n,n,n,n,HARD
+19,19,n,n,y,n,y,n,n,n,n,n,y,n,n,n,n,n,n,y,y,y,n,n,n,n,HARD
+1,1,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,n,n,n,y,n,HARD
+5,5,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+0,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,EASY
+10,10,n,n,y,y,y,n,n,n,n,n,n,y,n,n,y,n,n,y,y,n,n,n,n,n,HARD
+5,5,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,n,EASY
+2,2,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+0,0,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+28,27,n,n,y,n,n,y,y,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,HARD
+1,1,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+0,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY

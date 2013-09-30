@@ -1,0 +1,70 @@
+@relation jenk-test-filt
+
+@attribute author_kk@kohsuke.org {y,n}
+@attribute author_mindless@dev.java.net {n,y}
+@attribute author_mail@renemoser.net {n,y}
+@attribute author_nairb774@gmail.com {n,y}
+@attribute author_vjuranek@redhat.com {y,n}
+@attribute complex_maven-plugin/src/main/java/hudson/maven/mavenmodulesetbuild.java {n,y}
+@attribute complex_war/src/main/webapp/scripts/hudson-behavior.js {n,y}
+@attribute complex_test/src/test/resources/hudson/maven/jenkins-8573.zip {n,y}
+@attribute complex_maven-interceptor/src/main/java/hudson/maven/agent/pluginmanagerlistener.java {n,y}
+@attribute complex_maven3-interceptor/src/main/java/org/jvnet/hudson/maven3/listeners/mavenprojectbuildresult.java {n,y}
+@attribute complex_core/src/main/java/hudson/model/hudson.java {n,y}
+@attribute complex_maven-plugin/src/main/java/hudson/maven/mavenbuild.java {n,y}
+@attribute complex_maven3-agent/src/main/java/org/jvnet/hudson/maven3/agent/realfilteroutputstream.java {n,y}
+@attribute complex_core/src/main/java/hudson/model/computer.java {n,y}
+@attribute complex_maven-interceptor/src/main/java/org/apache/maven/lifecycle/lifecycleexecutorlistener.java {n,y}
+@attribute complex_maven3-agent/src/main/resources/org/jvnet/hudson/maven3/agent/classworlds.conf {n,y}
+@attribute simple_pom.xml {n,y}
+@attribute simple_maven-interceptor/pom.xml {n,y}
+@attribute simple_maven3-agent/pom.xml {n,y}
+@attribute simple_remoting/pom.xml {n,y}
+@attribute word_add {n,y}
+@attribute word_us {n,y}
+@attribute word_we {n,y}
+@attribute word_test {n,y}
+@attribute word_log {y,n}
+@attribute word_minor {n,y}
+@attribute word_ci.org {n,y}
+@attribute word_ad {y,n}
+@attribute word_french {n,y}
+@attribute word_issu {n,y}
+@attribute word_have {y,n}
+@attribute word_copi {n,y}
+@attribute word_go {n,y}
+@attribute word_1.390-snapshot {n,y}
+@attribute word_look {n,y}
+@attribute word_transfert {n,y}
+@attribute word_would {n,y}
+@attribute label {HARD,EASY}
+
+@data
+y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,y,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,y,y,n,n,y,y,n,y,n,n,y,n,n,n,y,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,y,n,n,y,n,n,n,n,n,n,n,y,n,HARD
+y,n,n,n,n,y,n,y,y,y,n,n,y,n,y,y,y,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,EASY
+y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,y,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,y,n,n,y,n,n,n,y,n,y,HARD
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,y,y,n,y,n,y,n,n,y,n,n,HARD
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,y,n,y,y,n,n,y,y,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,HARD
+n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,y,y,n,n,y,n,y,y,n,n,n,y,n,n,n,n,n,n,n,n,n,HARD

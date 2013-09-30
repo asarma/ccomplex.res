@@ -1,0 +1,312 @@
+@relation jenk-commit-filt
+
+@attribute file# numeric
+@attribute simple# numeric
+@attribute complex# numeric
+@attribute author_kutzi@gmx.de {y,n}
+@attribute complex_test/src/main/java/org/jvnet/hudson/test/hudsontestcase.java {n,y}
+@attribute complex_core/src/main/java/hudson/model/run.java {n,y}
+@attribute complex_remoting/src/main/java/hudson/remoting/channel.java {n,y}
+@attribute complex_core/src/main/java/hudson/pluginmanager.java {n,y}
+@attribute complex_core/src/main/java/jenkins/model/jenkins.java {n,y}
+@attribute complex_core/src/main/java/hudson/model/descriptor.java {n,y}
+@attribute complex_core/src/main/java/hudson/cli/buildcommand.java {n,y}
+@attribute complex_core/src/main/resources/lib/hudson/newfromlist/form.jelly {n,y}
+@attribute complex_core/src/main/java/hudson/model/job.java {n,y}
+@attribute complex_core/src/main/java/hudson/model/pagedecorator.java {n,y}
+@attribute simple_changelog.html {y,n}
+@attribute simple_plugins/pom.xml {y,n}
+@attribute simple_debian/changelog {n,y}
+@attribute simple_maven-interceptor/src/main/resources/meta-inf/plexus/components.xml {n,y}
+@attribute simple_war/src/main/webapp/help/security/private-realm_pt_br.html {n,y}
+@attribute word_http {n,y}
+@attribute word_make {y,n}
+@attribute word_71c3de6d-444a-0410-be80-ed276b4c234a {n,y}
+@attribute word_hudson.dev.java.net {n,y}
+@attribute word_name {n,y}
+@attribute word_when {n,y}
+@attribute word_github.com {n,y}
+@attribute word_need {n,y}
+@attribute word_fail {n,y}
+@attribute label {HARD,EASY}
+
+@data
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+16,10,6,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,y,y,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+1,0,1,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+12,9,3,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,0,3,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+7,1,6,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,y,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,1,1,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+11,9,2,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+2,0,2,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,9,1,n,n,n,n,n,n,n,y,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,9,1,n,n,n,n,n,n,n,y,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+8,8,0,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,HARD
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,0,2,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,3,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+39,8,31,n,y,y,n,n,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+2,2,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+8,8,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+8,8,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,y,y,EASY
+1,0,1,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,1,1,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+4,4,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+8,8,0,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,y,n,n,n,n,n,y,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,0,2,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,HARD
+149,17,132,n,n,y,n,n,y,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+3,3,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+4,3,1,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,y,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+5,0,5,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,y,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,0,3,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,2,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+5,5,0,y,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+4,1,3,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+11,9,2,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,y,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+10,9,1,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+2,1,1,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+6,1,5,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,9,1,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+2,2,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,1,1,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+4,0,4,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+40,9,31,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,1,2,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,9,1,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+9,9,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,2,0,y,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,10,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+26,0,26,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,y,n,n,n,HARD
+4,3,1,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+8,8,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+5,2,3,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,y,n,n,n,n,y,n,n,n,HARD
+42,1,41,n,n,n,y,n,n,y,n,y,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,HARD
+12,10,2,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,y,n,n,n,n,n,n,n,HARD
+2,2,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,0,3,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+4,0,4,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,y,HARD
+7,0,7,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,y,HARD
+9,0,9,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,HARD
+5,2,3,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,0,2,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,10,0,y,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+11,10,1,n,n,n,y,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+8,0,8,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,y,n,HARD
+75,12,63,n,y,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,2,8,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+107,1,106,n,y,n,y,n,n,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+18,0,18,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+3,2,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+12,10,2,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,2,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+26,15,11,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+8,5,3,n,y,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+12,10,2,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+27,1,26,n,y,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,HARD
+4,1,3,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,HARD
+8,1,7,n,y,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+27,12,15,n,y,n,y,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+2,1,1,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+14,1,13,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+6,1,5,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,HARD
+7,3,4,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+14,14,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,EASY
+3,1,2,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+4,3,1,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+7,1,6,n,y,n,y,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+15,13,2,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,10,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+17,14,3,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+14,14,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+2,1,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,HARD
+15,14,1,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,y,n,n,n,n,y,n,n,n,HARD
+14,14,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+14,14,0,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,0,2,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,HARD
+50,15,35,n,n,y,n,n,n,y,n,n,n,n,y,y,n,n,n,y,n,n,n,n,n,n,n,n,HARD
+15,14,1,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,y,n,n,n,n,n,y,n,n,HARD
+4,3,1,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,3,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,y,n,n,n,n,y,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+4,0,4,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,HARD
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,0,3,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,HARD
+13,13,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+13,13,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+13,13,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,0,2,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+13,13,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+13,13,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+11,11,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+88,13,75,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+10,9,1,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+11,11,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+11,11,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+3,1,2,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+10,6,4,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,y,y,n,n,n,n,HARD
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+1,1,0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+2,0,2,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,HARD
+1,0,1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,y,n,n,n,n,y,HARD
+17,9,8,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,n,n,n,n,n,HARD
+11,10,1,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD
+15,10,5,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD
+13,9,4,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD
+9,9,0,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD
+11,9,2,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD
+13,9,4,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD
+11,8,3,n,y,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD
+11,8,3,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,y,n,n,n,n,n,HARD

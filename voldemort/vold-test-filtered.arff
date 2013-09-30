@@ -1,0 +1,185 @@
+@relation vold-test-filt
+
+@attribute author_bbansal.usc@gmail.com {n,y}
+@attribute author_lgao@linkedin.com {n,y}
+@attribute author_bbansal@linkedin.com {n,y}
+@attribute author_csoman@linkedin.com {n,y}
+@attribute author_ismael@juma.me.uk {n,y}
+@attribute complex_src/java/voldemort/server/storage/storageservice.java {n,y}
+@attribute complex_test/unit/voldemort/client/rebalance/abstractrebalancetest.java {y,n}
+@attribute complex_.classpath {n,y}
+@attribute complex_src/java/voldemort/server/rebalance/rebalancer.java {n,y}
+@attribute complex_src/java/voldemort/xml/stores.xsd {n,y}
+@attribute complex_src/java/voldemort/server/protocol/admin/adminservicerequesthandler.java {n,y}
+@attribute complex_src/java/voldemort/xml/storedefinitionsmapper.java {n,y}
+@attribute complex_src/java/voldemort/utils/pool/keyedresourcepool.java {n,y}
+@attribute complex_src/java/voldemort/store/storedefinition.java {n,y}
+@attribute complex_test/integration/voldemort/store/grandfather/grandfathertest.java {n,y}
+@attribute complex_src/java/voldemort/store/storedefinitionbuilder.java {n,y}
+@attribute complex_test/integration/voldemort/performance/benchmark/benchmark.java {n,y}
+@attribute complex_src/java/voldemort/cluster/cluster.java {n,y}
+@attribute complex_contrib/ec2-testing/src/java/voldemort/utils/clustergenerator.java {n,y}
+@attribute complex_test/unit/voldemort/store/readonly/readonlystorageenginetest.java {n,y}
+@attribute complex_src/java/voldemort/server/voldemortserver.java {n,y}
+@attribute complex_src/java/voldemort/client/protocol/pb/vproto.java {n,y}
+@attribute simple_test/integration/voldemort/rebalance/config/test_config2/config/cluster.xml {n,y}
+@attribute simple_config/test_config2/config/cluster.xml {n,y}
+@attribute simple_test/integration/voldemort/rebalance/config/test_config3/config/stores.xml {n,y}
+@attribute simple_config/test_config1/config/cluster.xml {n,y}
+@attribute simple_test/integration/voldemort/rebalance/config/test_config1/config/stores.xml {n,y}
+@attribute word_merg {n,y}
+@attribute word_voldemort {n,y}
+@attribute word_branch {n,y}
+@attribute word_test {y,n}
+@attribute word_master {n,y}
+@attribute word_chang {n,y}
+@attribute word_store {n,y}
+@attribute word_us {n,y}
+@attribute word_remot {n,y}
+@attribute word_github.com {n,y}
+@attribute word_kei {n,y}
+@attribute word_updat {n,y}
+@attribute word_request {n,y}
+@attribute word_log {n,y}
+@attribute word_code {n,y}
+@attribute word_gener {n,y}
+@attribute word_gossip {n,y}
+@attribute word_more {n,y}
+@attribute word_unit {n,y}
+@attribute word_release-070 {n,y}
+@attribute word_admin {n,y}
+@attribute label {HARD,EASY}
+
+@data
+n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,n,y,n,n,y,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,y,n,n,n,n,y,n,y,n,n,n,n,n,n,n,EASY
+n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,y,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,y,y,n,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,n,HARD
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,n,y,n,n,y,n,n,n,y,n,n,n,EASY
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,EASY
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,y,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,y,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,y,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,y,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,n,n,n,y,n,n,n,y,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,y,n,n,n,y,n,n,n,n,n,n,y,n,n,EASY
+n,n,n,n,n,y,n,n,n,y,n,y,n,y,n,y,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,n,n,n,n,n,n,n,n,y,n,n,n,HARD
+n,n,n,n,n,y,y,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,y,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,y,n,n,y,n,n,n,n,n,n,n,y,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,y,y,n,n,n,n,n,n,n,n,n,y,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,HARD
+n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,n,y,y,n,n,n,n,n,y,n,n,n,n,n,n,HARD
+n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,y,n,n,n,y,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,y,n,n,n,n,n,n,y,y,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,y,n,EASY
+n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,HARD
+y,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,y,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,EASY
+y,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,y,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,EASY
+y,n,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,n,y,n,n,n,n,n,n,n,y,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,y,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,n,n,y,n,n,n,n,n,y,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,y,n,n,y,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,n,n,n,n,n,n,y,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,n,n,n,n,n,y,n,n,y,n,n,n,n,n,n,n,y,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,n,n,y,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,EASY
+n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,y,n,y,n,n,y,n,y,n,n,n,n,n,HARD
+y,n,n,n,n,y,n,n,n,n,y,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,n,y,y,y,n,y,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,y,y,n,n,n,n,n,n,n,n,n,EASY
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,y,y,n,n,n,n,n,y,n,y,EASY
+y,n,n,n,n,y,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,y,n,y,y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,HARD
+y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,y,n,n,n,n,n,n,HARD
+y,n,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,y,HARD
+n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,n,n,y,n,n,n,n,n,n,n,n,HARD
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,y,n,n,n,n,y,n,n,n,n,n,n,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,n,n,n,EASY
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,y,y,y,y,n,n,y,n,n,n,y,n,n,n,n,n,n,EASY
